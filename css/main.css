@@ -1,0 +1,76 @@
+header {
+    background-color: #eeb111;
+    width: 100%;
+    position: fixed;
+    padding-left: 100px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    margin-top: -12px;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: -8px;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.content {
+    width: 100%;
+    padding-top: 13%;
+}
+
+.card {
+    border: 1px solid #d3d3d3;
+    background-color: #f4f4f4;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 5px;
+}
+
+.images {
+    width: 100%;
+}
+
+@media only screen and (max-width: 640px) {
+.content {
+    max-width: 100%;
+    position: relative;
+    z-index: -1;
+    margin-bottom: 5%;
+}
+
+.card {
+    max-width: 100%;
+    margin-top: 8%;
+    margin-bottom: -4%;
+    }
+
+.images {
+    width: 100%;
+    }
+}
+
+
+
+
+
+
